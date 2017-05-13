@@ -6,7 +6,7 @@
 */
 
 body {
-	font-family: 'Open Sans', sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
 	line-height: 20px;
 	color: #999999;
 	font-size: 300;
@@ -59,7 +59,7 @@ hr.botm-line {
 
 #ptext {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
+    font-size: 14px;
 }
 /***************************************
 banner
@@ -86,7 +86,8 @@ banner
 
 .navbar-brand
 {
-	font-family: 'Chewy', cursive;
+	/*font-family: 'Chewy', cursive;*/
+    font-family: Arial, Helvetica, sans-serif;
 	font-size: 32px;
 }
 
@@ -115,20 +116,20 @@ banner
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
     color: #fff;
-    text-transform: uppercase;
+    --text-transform: uppercase;
     background-color: rgba(12, 184, 182, 0.21);
 }
 .navbar-default .navbar-nav > li > a
 {
 	color: #fff;
-	text-transform: uppercase;
+	--text-transform: uppercase;
 	font-size: 14px;
 	font-weight: 300;
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus
 {
 	color: #fff;
-    text-transform: uppercase;
+    --text-transform: uppercase;
     background-color: rgba(12, 184, 182, 0.21);
 }
 .affix {
@@ -426,7 +427,11 @@ contact us
 	display:block;
 }
 
-
+/*.gspnavhead {
+    font-size: 10px;
+    font-family: Helvetica, Arial, sans-serif;
+    color: black;
+}*/
 /***************************************
 footer
 ***************************************/
